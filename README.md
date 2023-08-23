@@ -22,7 +22,7 @@ pip3 install langchain openai chromadb tiktoken unstructured constants "unstruct
 ```
 
 ## Features
-- - Automatic Module Installation: Before execution, the script checks for the required modules and installs missing ones.
+- Automatic Module Installation: Before execution, the script checks for the required modules and installs missing ones.
 - Vectorstore Indexing: Depending on the PERSIST flag, the script either reuses an existing index from the disk or creates a new one from the data/ directory.
 - Conversational Interface: Users can engage in a continuous conversational loop with the system. They can enter queries and receive answers based on the data indexed. The conversation can be ended using keywords like quit, q, or exit.
 
